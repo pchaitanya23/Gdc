@@ -8,18 +8,14 @@
 	background-size: contain;
 	background-position: center;
 	height: 100vh;
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
 	color: white;
 	font-size: 20px;
 }
 nav{
 	display: block;
 	height: 100px;
-	/* background-color: green; */
 }
-nav li, footer li{
+nav li, .contact li{
 	display: inline;
 	float: right;
 	padding: 20px;
@@ -55,10 +51,16 @@ nav li a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 .mail-id{
 	background-color: aqua;
+	margin: 100px;
 }
 .other-cont{
-	background-color: blue;
+	background-color: green;
+	margin: 200px;
+}
+li a{
+	color: white;
 }
