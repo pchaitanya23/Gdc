@@ -38,6 +38,7 @@ nav li a{
 	background-color: yellowgreen;
 	padding: 20px;
 	border-radius: 10px;
+	overflow: scroll;
 }
 .about-text h1{
 	text-align: center;
@@ -57,10 +58,43 @@ nav li a{
 	background-color: aqua;
 	margin: 100px;
 }
-.other-cont{
+/* .other-cont{
 	background-color: green;
-	margin: 200px;
-}
+	margin: 150px;
+} */
 li a{
 	color: white;
+}
+.div-1{
+	height: 30%;
+	background-color: orange;
+	text-align: center;
+	width: 100%;
+	padding: 70px;
+	box-sizing: border-box;
+}
+.div-2{
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.left-side{
+	background-color: lightgreen;
+	width: 50vw;
+	height: 70vh;
+}
+.right-side{
+	background-color: aqua;
+	width: 50vw;
+	height: 70vh;
+}
+form{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+input[type='text']{
+	height: 30px;
+	width: 25vw;
+	margin: 10px 0;
 }
